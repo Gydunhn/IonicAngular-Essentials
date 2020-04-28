@@ -1,0 +1,76 @@
+{
+    "name": "ionicangular-essentials",
+    "displayName": "IonicAngular-Essentials",
+    "description": "IonicAngular essential extensions for visual studio code",
+    "icon": "img/essentials.png",
+    "galleryBanner": {
+        "color": "#53595e",
+        "theme": "dark"
+    },
+    "license": "LICENSE.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Gydunhn/IonicAngular-Essentials.git"
+    },
+    "keywords": [
+        "VSC",
+        "VSCode",
+        "Visual Studio",
+        "VSC Essentials",
+        "Javascript",
+        "Lint",
+        "ESLint",
+        "jshint",
+        "npm",
+        "Intellisense",
+        "Visual Studio IntelliCode",
+        "IntelliCode",
+        "ES6",
+        "Snippets",
+        "JavaScript (ES6) code snippets",
+        "Javascript-Essentials",
+        "TypeScript",
+        "TSLint",
+        "Hero",
+        "TypeScript Hero",
+        "TypeScript Importer",
+        "Typescript-Essentials",
+        "Angular",
+        "Angular Language Service",
+        "inline",
+        "angular2-inline",
+        "Nx",
+        "Console",
+        "Nx Console",
+        "Angular-Essentials",
+        "Ionic",
+        "Ionic Snippets",
+        "Ionic Cordova",
+        "Cordova",
+        "Cordova Tools",
+        "Debugger",
+        "Firefox",
+        "Debugger for Firefox",
+        "Edge",
+        "Debugger for Microsoft Edge",
+        "Chrome",
+        "Debugger for Chrome",
+        "Essentials",
+        "Gydunhn",
+        "TeamElite",
+        "Team Elite"
+    ],
+    "version": "0.0.1",
+    "publisher": "Gydunhn",
+    "engines": {
+        "vscode": "^1.44.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [
+        "fivethree.vscode-ionic-snippets",
+        "Msjsdiag.cordova-tools",
+        "Gydunhn.angular-essentials"
+    ]
+}

@@ -2,7 +2,7 @@
 
 [![Badge for version for Visual Studio Code extension](https://vsmarketplacebadge.apphb.com/version-short/Gydunhn.ionicangular-essentials.svg?color=blue&style=?style=for-the-badge&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=Gydunhn.ionicangular-essentials) [![Installs](https://vsmarketplacebadge.apphb.com/installs-short/Gydunhn.ionicangular-essentials.svg?color=blue&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=Gydunhn.ionicangular-essentials) [![Downloads](https://vsmarketplacebadge.apphb.com/downloads-short/Gydunhn.ionicangular-essentials.svg?color=blue&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=Gydunhn.ionicangular-essentials) [![StarRating](https://vsmarketplacebadge.apphb.com/rating-star/Gydunhn.ionicangular-essentials.svg?color=blue&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=Gydunhn.ionicangular-essentials) [![Rating](https://vsmarketplacebadge.apphb.com/rating-short/Gydunhn.ionicangular-essentials.svg?color=blue&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=Gydunhn.ionicangular-essentials)   
 
-This extension pack for Visual Studio Code adds extensions that are useful for TypeScript projects. I reserve the right to update the extensions pack contents up to my own discretion.
+This extension pack for Visual Studio Code adds extensions that are useful for Ionic projects. I reserve the right to update the extensions pack contents up to my own discretion.
 
 ## Reasons
 

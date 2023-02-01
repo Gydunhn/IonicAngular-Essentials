@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0] - 2023-02-01
+
+### Added
+
+* Ionic, Official extension for Ionic and Capacitor development
+
 ## [0.0.3] - 2020-10-06
 
 ### Changed
@@ -27,6 +33,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   * Created extension pack
 
 [Unreleased]: https://github.com/Gydunhn/IonicAngular-Essentials/tree/develop
+[0.1.0]: https://github.com/Gydunhn/IonicAngular-Essentials/releases/tag/0.1.0
 [0.0.3]: https://github.com/Gydunhn/IonicAngular-Essentials/releases/tag/0.0.3
 [0.0.2]: https://github.com/Gydunhn/IonicAngular-Essentials/releases/tag/0.0.2
 [0.0.1]: https://github.com/Gydunhn/IonicAngular-Essentials/releases/tag/0.0.1

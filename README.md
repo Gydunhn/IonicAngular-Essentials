@@ -19,7 +19,7 @@ It is imperative that the settings be added to settings.json, inside the ".vscod
 ``` json
 {
 	/**
-     * Core Basic PlanVital Essentials Config
+     * PlanVital's Essential Angular Settings
      */
 	"extensions.ignoreRecommendations": true,
 	"editor.tabCompletion": "on",
@@ -91,9 +91,6 @@ It is imperative that the settings be added to settings.json, inside the ".vscod
 		"MD024": false,
 		"MD025": false
 	},
-	/**
-     * * Core Detailed PlanVital Essentials Config
-     */
 	"todo-tree.tree.showCountsInTree": true,
 	"todo-tree.general.statusBar": "top three",
 	"todo-tree.general.showIconsInsteadOfTagsInStatusBar": true,
@@ -102,7 +99,9 @@ It is imperative that the settings be added to settings.json, inside the ".vscod
 		"FIXME",
 		"FIXIT",
 		"FIX",
-		"BUG"
+		"BUG",
+		"HACK",
+		"UNDONE",
 	],
 	"todo-tree.general.tagGroups": {
 		"FIXME": [
@@ -116,7 +115,7 @@ It is imperative that the settings be added to settings.json, inside the ".vscod
 		"TODO": {
 			"gutterIcon": true,
 			"icon": "tasklist",
-			"iconColour": "#FF8C00",
+			"iconColour": "#FF9E29",
 			"type": "tag",
 			"background": "#CF7200",
 			"foreground": "#FFFFFF",
@@ -125,10 +124,28 @@ It is imperative that the settings be added to settings.json, inside the ".vscod
 		"FIXME": {
 			"gutterIcon": true,
 			"icon": "tools",
-			"iconColour": "#00FF00",
+			"iconColour": "#00BD00",
 			"type": "tag",
 			"background": "#008000",
-			"foreground": "#FFFF00",
+			"foreground": "#ffffff",
+			"fontWeight": "bold"
+		},
+		"UNDONE": {
+			"gutterIcon": true,
+			"icon": "history",
+			"iconColour": "#FFFF00",
+			"type": "tag",
+			"background": "#FFFF00",
+			"foreground": "#141D1E",
+			"fontWeight": "bold"
+		},
+		"HACK": {
+			"gutterIcon": true,
+			"icon": "code",
+			"iconColour": "#FF30C8",
+			"type": "tag",
+			"background": "#141D1E",
+			"foreground": "#fa64d2",
 			"fontWeight": "bold"
 		}
 	},
@@ -216,9 +233,6 @@ It is imperative that the settings be added to settings.json, inside the ".vscod
 			"italic": false
 		}
 	],
-	/**
-     * * Official Full PlanVital Essentials Config
-     */
 	"editor.stickyScroll.enabled": true,
 	"terminal-in-status-bar.statusBarAlignment": "right",
 	"terminal-in-status-bar.statusBarPriority": 10000,
@@ -261,7 +275,16 @@ It is imperative that the settings be added to settings.json, inside the ".vscod
 			"reset": false,
 			"revert": false,
 		}
-	}
+	},
+	"gitlens.statusBar.enabled": true,
+	"gitlens.statusBar.command": "gitlens.openCommitOnRemote",
+	"gitlens.blame.avatars": true,
+	"gitlens.hovers.avatars": true,
+	"gitlens.hovers.avatarSize": 64,
+	"gitlens.hovers.changesDiff": "hunk"
+	/**
+     * PlanVital's Essential Angular Settings
+     */
 }
 ```
 
@@ -283,5 +306,7 @@ This extension pack includes the following extensions:
   * Angular Language Service
   * angular2-inline
   * Ionic
+  * Markdown Emoji
+  * GitLens — Git supercharged
 
 [Ionic / Angular Essentials extension pack]: https://marketplace.visualstudio.com/items?itemName=Gydunhn.ionicangular-essentials

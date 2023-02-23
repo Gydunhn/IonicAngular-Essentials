@@ -2,7 +2,14 @@
 
 This edition of this extension is unique, it is designed to be used in specific developments of AFP PlanVital projects.
 
-## [1.0.0-PLV] - 2023-02-22
+## 1.0.1-[PLV] - 2023-02-22
+
+### Added
+
+* Markdown Emoji
+* GitLens — Git supercharged
+
+## 1.0.0-[PLV] - 2023-02-22
 
 ### Created
 
@@ -21,4 +28,4 @@ This edition of this extension is unique, it is designed to be used in specific 
   * angular2-inline
   * Ionic
 
-[1.0.0-PLV]: https://github.com/Gydunhn/IonicAngular-Essentials/tree/edition/plv-edition
+[PLV]: https://github.com/Gydunhn/IonicAngular-Essentials/tree/edition/plv-edition

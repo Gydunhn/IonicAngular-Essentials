@@ -1,4 +1,4 @@
-# PLV EDITION
+# AFP PlanVital EDITION
 
 This edition of this extension is unique, it is designed to be used in specific developments of AFP PlanVital projects.
 

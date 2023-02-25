@@ -1,8 +1,7 @@
 {
 	/**
-     * PlanVital's Essential Angular Settings
+     * El Meche's Essential Angular Settings
      */
-	"extensions.ignoreRecommendations": true,
 	"editor.tabCompletion": "on",
 	"editor.showDeprecated": true,
 	"editor.rulers": [
@@ -10,8 +9,15 @@
 	],
 	"editor.guides.bracketPairs": "active",
 	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": true
+	},
 	"workbench.tree.expandMode": "singleClick",
 	"workbench.tree.renderIndentGuides": "always",
+	"workbench.colorTheme": "Shades of Purple (Super Dark)",
+	"workbench.iconTheme": "material-icon-theme",
+	"editor.formatOnType": true,
+	"editor.formatOnPaste": true,
 	"editor.formatOnSave": true,
 	"[markdown]": {
 		"editor.defaultFormatter": "yzhang.markdown-all-in-one"
@@ -262,8 +268,19 @@
 	"gitlens.blame.avatars": true,
 	"gitlens.hovers.avatars": true,
 	"gitlens.hovers.avatarSize": 64,
-	"gitlens.hovers.changesDiff": "hunk"
+	"gitlens.hovers.changesDiff": "hunk",
+	"material-icon-theme.folders.associations": {
+		"directives": "prisma",
+		"interceptors": "routes",
+		"xml": "views",
+		"png": "images",
+		"jpeg": "images",
+		"jpg": "images",
+	},
+	"material-icon-theme.files.associations": {
+		"*.provider.ts": "Angular-service"
+	}
 	/**
-     * PlanVital's Essential Angular Settings
+     * El Meche's Essential Angular Settings
      */
 }

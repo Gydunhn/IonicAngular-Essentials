@@ -1,7 +1,7 @@
 {
     "name": "ionicangular-essentials",
     "displayName": "IonicAngular-Essentials",
-    "description": "IonicAngular essential extensions for visual studio code",
+    "description": "EL Meche FoodTruck Extension Pack for Visual Studio Code",
     "icon": "img/essentials.png",
     "galleryBanner": {
         "color": "#53595e",
@@ -41,7 +41,7 @@
         "AFP PlanVital",
         "GENERALI"
     ],
-    "version": "1.0.1",
+    "version": "1.0.2",
     "publisher": "Gydunhn",
     "engines": {
         "vscode": "^1.35.0"
@@ -64,6 +64,24 @@
         "natewallace.angular2-inline",
         "ionic.ionic",
         "bierner.markdown-emoji",
-        "eamodio.gitlens"
+        "eamodio.gitlens",
+        "IBM.output-colorizer",
+        "mechatroner.rainbow-csv",
+        "naumovs.color-highlight",
+        "alefragnani.Bookmarks",
+        "oderwat.indent-rainbow",
+        "bierner.emojisense",
+        "adpyke.codesnap",
+        "PKief.material-icon-theme",
+        "flyfly6.terminal-in-status-bar",
+        "vincaslt.highlight-matching-tag",
+        "formulahendry.auto-complete-tag",
+        "be5invis.vscode-icontheme-nomo-dark",
+        "EliverLara.andromeda",
+        "enkia.tokyo-night",
+        "dracula-theme.theme-dracula",
+        "RobbOwen.synthwave-vscode",
+        "teabyii.ayu",
+        "ahmadawais.shades-of-purple"
     ]
 }

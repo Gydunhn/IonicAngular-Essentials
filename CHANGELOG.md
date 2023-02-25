@@ -1,15 +1,8 @@
 # PLV EDITION
 
-This edition of this extension is unique, it is designed to be used in specific developments of AFP PlanVital projects.
+This edition of this extension is a unique variant, it is designed to be used in specific developments of El Meche projects.
 
-## 1.0.1-[PLV] - 2023-02-22
-
-### Added
-
-* Markdown Emoji
-* GitLens — Git supercharged
-
-## 1.0.0-[PLV] - 2023-02-22
+## 1.0.2 - 2021-04-04
 
 ### Created
 
@@ -27,5 +20,6 @@ This edition of this extension is unique, it is designed to be used in specific 
   * Angular Language Service
   * angular2-inline
   * Ionic
-
-[PLV]: https://github.com/Gydunhn/IonicAngular-Essentials/tree/edition/plv-edition
+  * Markdown Emoji
+  * GitLens — Git supercharged
+  * and more...

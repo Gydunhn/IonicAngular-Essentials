@@ -1,14 +1,14 @@
-# Ionic / Angular Essentials - Extension Pack for Visual Studio Code
+# EL Meche FoodTruck Extension Pack for Visual Studio Code
 
 [![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/Gydunhn.ionicangular-essentials?color=blue)](https://marketplace.visualstudio.com/items?itemName=Gydunhn.ionicangular-essentials) [![Installs](https://flat.badgen.net/vs-marketplace/i/Gydunhn.ionicangular-essentials?color=blue)](https://marketplace.visualstudio.com/items?itemName=Gydunhn.ionicangular-essentials) [![Downloads](https://flat.badgen.net/vs-marketplace/d/Gydunhn.ionicangular-essentials?color=blue)](https://marketplace.visualstudio.com/items?itemName=Gydunhn.ionicangular-essentials) [![Rating](https://flat.badgen.net/vs-marketplace/rating/Gydunhn.ionicangular-essentials?color=blue)](https://marketplace.visualstudio.com/items?itemName=Gydunhn.ionicangular-essentials)
 
 This extension pack for Visual Studio Code adds extensions that are convenient and useful for any development (regardless of language). I reserve the right to update the content of the extension pack at my own discretion.
 
-This **BASIC** version of the extension pack is for a series of very specific projects in which I am currently involved; projects with multiple repositories that share the same stack of technologies transversally.
+This version of the extension pack is for a series of very specific projects in which I am currently involved; projects with multiple repositories that share the same stack of technologies transversally.
 
 ## Reasons
 
-The [Ionic / Angular Essentials extension pack] AFP PlanVital Special Edition was made to automate and standardize the setup phase of the development environment for Visual Studio Code, to have the same set of extensions, use the same id settings and file format everyone works on together.
+The Special Edition was made to automate and standardize the setup phase of the development environment for Visual Studio Code, to have the same set of extensions, use the same id settings and file format everyone works on together.
 
 See the [CHANGELOG](CHANGELOG.md) for the latest changes
 
@@ -19,9 +19,8 @@ It is imperative that the settings be added to settings.json, inside the ".vscod
 ``` json
 {
 	/**
-     * PlanVital's Essential Angular Settings
+     * El Meche's Essential Angular Settings
      */
-	"extensions.ignoreRecommendations": true,
 	"editor.tabCompletion": "on",
 	"editor.showDeprecated": true,
 	"editor.rulers": [
@@ -29,8 +28,15 @@ It is imperative that the settings be added to settings.json, inside the ".vscod
 	],
 	"editor.guides.bracketPairs": "active",
 	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": true
+	},
 	"workbench.tree.expandMode": "singleClick",
 	"workbench.tree.renderIndentGuides": "always",
+	"workbench.colorTheme": "Shades of Purple (Super Dark)",
+	"workbench.iconTheme": "material-icon-theme",
+	"editor.formatOnType": true,
+	"editor.formatOnPaste": true,
 	"editor.formatOnSave": true,
 	"[markdown]": {
 		"editor.defaultFormatter": "yzhang.markdown-all-in-one"
@@ -281,9 +287,20 @@ It is imperative that the settings be added to settings.json, inside the ".vscod
 	"gitlens.blame.avatars": true,
 	"gitlens.hovers.avatars": true,
 	"gitlens.hovers.avatarSize": 64,
-	"gitlens.hovers.changesDiff": "hunk"
+	"gitlens.hovers.changesDiff": "hunk",
+	"material-icon-theme.folders.associations": {
+		"directives": "prisma",
+		"interceptors": "routes",
+		"xml": "views",
+		"png": "images",
+		"jpeg": "images",
+		"jpg": "images",
+	},
+	"material-icon-theme.files.associations": {
+		"*.provider.ts": "Angular-service"
+	}
 	/**
-     * PlanVital's Essential Angular Settings
+     * El Meche's Essential Angular Settings
      */
 }
 ```
@@ -308,5 +325,4 @@ This extension pack includes the following extensions:
   * Ionic
   * Markdown Emoji
   * GitLens — Git supercharged
-
-[Ionic / Angular Essentials extension pack]: https://marketplace.visualstudio.com/items?itemName=Gydunhn.ionicangular-essentials
+  * And more...

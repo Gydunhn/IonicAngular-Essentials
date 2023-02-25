@@ -1,4 +1,4 @@
-# PLV EDITION
+# EL MECHE EDITION
 
 This edition of this extension is a unique variant, it is designed to be used in specific developments of El Meche projects.
 

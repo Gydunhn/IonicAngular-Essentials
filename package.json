@@ -1,7 +1,7 @@
 {
-    "name": "ionicangular-essentials",
-    "displayName": "IonicAngular-Essentials",
-    "description": "EL Meche FoodTruck Extension Pack for Visual Studio Code",
+    "name": "elmeche-essentials",
+    "displayName": "ELMeche-Essentials",
+    "description": "EL Meche Extension Pack for Visual Studio Code",
     "icon": "img/essentials.png",
     "galleryBanner": {
         "color": "#53595e",
@@ -41,7 +41,7 @@
         "AFP PlanVital",
         "GENERALI"
     ],
-    "version": "1.0.2",
+    "version": "1.0.3",
     "publisher": "Gydunhn",
     "engines": {
         "vscode": "^1.35.0"

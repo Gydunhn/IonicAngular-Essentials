@@ -1,7 +1,5 @@
 # EL Meche FoodTruck Extension Pack for Visual Studio Code
 
-[![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/Gydunhn.ionicangular-essentials?color=blue)](https://marketplace.visualstudio.com/items?itemName=Gydunhn.ionicangular-essentials) [![Installs](https://flat.badgen.net/vs-marketplace/i/Gydunhn.ionicangular-essentials?color=blue)](https://marketplace.visualstudio.com/items?itemName=Gydunhn.ionicangular-essentials) [![Downloads](https://flat.badgen.net/vs-marketplace/d/Gydunhn.ionicangular-essentials?color=blue)](https://marketplace.visualstudio.com/items?itemName=Gydunhn.ionicangular-essentials) [![Rating](https://flat.badgen.net/vs-marketplace/rating/Gydunhn.ionicangular-essentials?color=blue)](https://marketplace.visualstudio.com/items?itemName=Gydunhn.ionicangular-essentials)
-
 This extension pack for Visual Studio Code adds extensions that are convenient and useful for any development (regardless of language). I reserve the right to update the content of the extension pack at my own discretion.
 
 This version of the extension pack is for a series of very specific projects in which I am currently involved; projects with multiple repositories that share the same stack of technologies transversally.

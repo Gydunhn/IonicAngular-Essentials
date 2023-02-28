@@ -1,7 +1,7 @@
 {
     "name": "ionicangular-essentials",
     "displayName": "IonicAngular-Essentials",
-    "description": "AFP PlanVital essential extensions for visual studio code",
+    "description": "AFP PlanVital CORE extensions for visual studio code",
     "icon": "img/essentials.png",
     "galleryBanner": {
         "color": "#53595e",
@@ -41,7 +41,7 @@
         "AFP PlanVital",
         "GENERALI"
     ],
-    "version": "1.0.2",
+    "version": "1.0.5",
     "publisher": "Gydunhn",
     "engines": {
         "vscode": "^1.35.0"
@@ -52,18 +52,12 @@
     "extensionPack": [
         "yzhang.markdown-all-in-one",
         "DavidAnson.vscode-markdownlint",
+        "bierner.markdown-emoji",
         "DotJoshJohnson.xml",
         "lacroixdavid1.vscode-format-context-menu",
         "Gruntfuggly.todo-tree",
         "aaron-bond.better-comments",
-        "mhutchie.git-graph",
         "dbaeumer.vscode-eslint",
-        "firefox-devtools.vscode-firefox-debug",
-        "pmneo.tsimporter",
-        "Angular.ng-template",
-        "natewallace.angular2-inline",
-        "ionic.ionic",
-        "bierner.markdown-emoji",
-        "eamodio.gitlens"
+        "Angular.ng-template"
     ]
 }
